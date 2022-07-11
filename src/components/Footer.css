@@ -1,0 +1,135 @@
+.footer-container {
+    text-align: left !important;
+    padding: 0rem 3rem !important;
+}
+.footer-image {
+    width:50px;
+    margin-bottom:1rem;
+}
+.footer-link {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size:0.9rem;
+}
+.footer-header {
+    margin-bottom: 2rem;
+    font-weight:500;
+    text-align: left;
+}
+
+ul {
+    padding: 0rem !important;
+    margin: 0rem !important;
+}
+
+.copyright-row {
+   padding:2rem 2rem 0rem 2rem;
+
+}
+
+a {
+    color:black !important;
+    text-decoration: none !important;
+}
+.footer-link {
+    color:grey !important;
+}
+
+.circle {
+    font-size:1.2rem;
+   
+    box-shadow: 1px 1px 1px lightgrey;
+    border-radius:50%;
+    margin-bottom:1rem !important;
+    margin:0rem 1rem;
+    padding: 0.7rem 1rem;
+}
+
+.icon-col {
+    display: flex;
+}
+
+.brand-link {
+    color:grey !important;
+}
+
+.subscribe-para {
+    color:grey !important;
+    font-size:0.8rem;
+    margin-bottom: 2rem;
+}
+.subscribe-email {
+    border:1px solid grey;
+    padding: 0.3rem 0.2rem 0.3rem 0.5rem !important;
+    border-radius: 20px;
+    width:100%;
+    
+}
+
+.subscribe-input {
+    border-right: 1px solid lightgrey !important;
+    border:none;
+    width:85%;
+}
+.subscribe-input:focus {
+    outline:none;
+}
+
+.footer-button {
+    width:15%;
+}
+
+.footer-button {
+    background:none;
+    border:none;
+}
+
+.copyright-col {
+    padding-top:1rem;
+    font-weight:300;
+    font-size: 0.9rem;
+}
+.twitter-icon {
+    color:#1DA1F2;
+}
+
+.instagram-icon {
+    background: #f09433; 
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color:white;
+    border-radius: 5px;
+}
+
+
+
+.discord-icon {
+    color:#7289DA;
+}
+@media only screen and (max-width: 768px) {
+    .footer-container, .footer-link, .footer-header {
+        text-align: center !important;
+    }
+
+    .footer-header {
+        padding-top:2rem;
+    }
+    .subscribe-email {
+        width:70%; 
+        margin-left:15%;
+    }
+  }
+
+
+
+@media only screen and (max-width: 580px) {
+  .copyright-col {
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+  .icon-col {
+    text-align: center;
+    justify-content: center;
+    width:100%;
+  }
+}
